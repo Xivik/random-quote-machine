@@ -1,0 +1,52 @@
+body {
+  background-color: #4289ff;
+}
+
+.container {
+  position: relative;
+  background-color: white;
+  height: 350px;
+  width: 750px;
+  margin: auto;
+  margin-top: 200px;
+  border: grey 1px solid;
+}
+
+.twitter {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+}
+.btn {
+  box-shadow: 3px 3px 7px grey;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background-color: #4289ff;
+}
+
+#quoteleft {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-size: 70px !important;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.quote {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+.fa {
+  font-size: 30px;
+}
+.output {
+  position: absolute;
+  top: 55%;
+  left: 55%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 80%;
+}
+
+#titel {
+  font-style: italic;
+}
